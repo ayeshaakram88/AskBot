@@ -1,22 +1,20 @@
 
 ## TensorFlow AI Model
-1. Used pretrained QnA Model from tensor-flow
-
+1. Used pretrained MobileNet model for object detection from images
+2. Go to https://www.npmjs.com/search?q=tensorflow%20models to use Model of your own choice.
 ## Firebase Configuration
-Added my firebase credentials to firebase.js
+In firebase.js file add your firebase configuration object. The steps to obtain your object are:
 
+1. Go to https://firebase.google.com/ and select “Get started”
+2. Create a new project ( a three-step process for creating project)
+3. Select "Add Firebase to your app" by clicking either Android/iOS/Web/Unity/flutter
+4. Add your project name and get creditional
 ## Methods to run this project
-1. Clone directory ()
+1. Clone directory (https://github.com/ayeshaakram88/MAD-Quiz-02.git)
 2. Use powershell or VS code terminal to goto the project directory.
 3. Copy and run the following commands in the terminal:
-a. npm install
-b. npm install @react-navigation/native @react-navigation/bottom-tabs
-c. npm install @tensorflow/tfjs @tensorflow/tfjs-react-native
-d. install npm install @tensorflow/tfjs @tensorflow-models/qna
-e. npx expo start
-
-## NOTE 
-->The model is not well trained, so it may not work properly for some questions and passages.
-->Sometimes, it may take time to load the model, depending on the network quality.
-->Initially you may be thrown an error of index 0 beyond bounds fo empty array on ios, just dismiss it and you're good to go!
-->If any of the button doesn't work at first click, click it again.
+  a. npm install
+  b. npm install @react-navigation/native @react-navigation/bottom-tabs
+  c. npm install @tensorflow/tfjs @tensorflow/tfjs-react-native
+  d. install npm install @tensorflow/tfjs @tensorflow-models/qna
+  e. npx expo start

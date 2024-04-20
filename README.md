@@ -13,8 +13,8 @@ In firebase.js file add your firebase configuration object. The steps to obtain 
 1. Clone directory (https://github.com/ayeshaakram88/MAD-Quiz-02.git)
 2. Use powershell or VS code terminal to goto the project directory.
 3. Copy and run the following commands in the terminal:
-  a. npm install
-  b. npm install @react-navigation/native @react-navigation/bottom-tabs
-  c. npm install @tensorflow/tfjs @tensorflow/tfjs-react-native
-  d. install npm install @tensorflow/tfjs @tensorflow-models/qna
-  e. npx expo start
+   i. npm install
+   ii. npm install @react-navigation/native @react-navigation/bottom-tabs
+   iii. npm install @tensorflow/tfjs @tensorflow/tfjs-react-native
+   iv. install npm install @tensorflow/tfjs @tensorflow-models/qna
+   v. npx expo start
